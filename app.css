@@ -1,0 +1,56 @@
+.container {
+  max-width: 800px;
+}
+
+.winner {
+  color: green;
+}
+
+.loser {
+  color: red;
+}
+
+.subtitle {
+  color: #4a4a4a;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.25;
+}
+label {
+  color: #363636;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.select {
+  display: inline-block;
+  width: 9%;
+}
+.buttons {
+  background-color: transparent;
+  border-top: 1px solid #ededed;
+  align-items: stretch;
+  display: flex;
+}
+.btn-item {
+  align-items: center;
+  display: flex;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 0;
+  justify-content: center;
+  padding: 0.75rem;
+  font-size: 1.5rem;
+  border-color: transparent;
+  color: #fff;
+}
+.btn-1 {
+  background-color: #00d1b2;
+}
+
+.btn-2 {
+  background-color: #3298dc;
+}
+
+.btn-3 {
+  background-color: #f14668;
+}
